@@ -19,6 +19,8 @@
 		4605EEAB1805033C00CF71BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4605EE931805033C00CF71BA /* UIKit.framework */; };
 		4605EEB31805033C00CF71BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4605EEB11805033C00CF71BA /* InfoPlist.strings */; };
 		4605EEB51805033C00CF71BA /* blockTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605EEB41805033C00CF71BA /* blockTestTests.m */; };
+		4605EEC2180503D600CF71BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605EEC0180503D600CF71BA /* ViewController.m */; };
+		4605EEC3180503D600CF71BA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4605EEC1180503D600CF71BA /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		4605EEB01805033C00CF71BA /* blockTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blockTestTests-Info.plist"; sourceTree = "<group>"; };
 		4605EEB21805033C00CF71BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4605EEB41805033C00CF71BA /* blockTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blockTestTests.m; sourceTree = "<group>"; };
+		4605EEBF180503D600CF71BA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Classes/ViewController.h; sourceTree = "<group>"; };
+		4605EEC0180503D600CF71BA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Classes/ViewController.m; sourceTree = "<group>"; };
+		4605EEC1180503D600CF71BA /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = Classes/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,7 @@
 		4605EE951805033C00CF71BA /* blockTest */ = {
 			isa = PBXGroup;
 			children = (
+				4605EEBE180503AC00CF71BA /* Classes */,
 				4605EE9E1805033C00CF71BA /* AppDelegate.h */,
 				4605EE9F1805033C00CF71BA /* AppDelegate.m */,
 				4605EEA11805033C00CF71BA /* Images.xcassets */,
@@ -142,6 +148,16 @@
 				4605EEB11805033C00CF71BA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4605EEBE180503AC00CF71BA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4605EEBF180503D600CF71BA /* ViewController.h */,
+				4605EEC0180503D600CF71BA /* ViewController.m */,
+				4605EEC1180503D600CF71BA /* ViewController.xib */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4605EE9A1805033C00CF71BA /* InfoPlist.strings in Resources */,
+				4605EEC3180503D600CF71BA /* ViewController.xib in Resources */,
 				4605EEA21805033C00CF71BA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4605EEC2180503D600CF71BA /* ViewController.m in Sources */,
 				4605EEA01805033C00CF71BA /* AppDelegate.m in Sources */,
 				4605EE9C1805033C00CF71BA /* main.m in Sources */,
 			);
